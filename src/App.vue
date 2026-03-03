@@ -188,7 +188,7 @@ body {
   .preview-box {
     position: relative;
     top: 200px;
-    width: 1200px;
+    width: 1500px;
     height: 650px;
     left: 50%;
     transform: translate(-50%);
@@ -253,12 +253,13 @@ body {
     }
 
     .laptop {
-      top: 200px;
-      left: 0px;
+      top: 340px;
+      left: 272px;
       width: 600px;
       height: 380px;
       background: url(./assets/images/new-model/laptop.png) no-repeat 0 0/contain;
       transform: scale(0.9);
+      z-index: 3;
 
       &.active {
         top: 50%;
@@ -279,9 +280,9 @@ body {
 
 
     .phone {
-      top: 240px;
+      top: 358px;
       z-index: 2;
-      left: 56%;
+      left: 53%;
       width: 168px;
       height: 350px;
       background: url(./assets/images/new-model/mobile.png) no-repeat 0 0/contain;
@@ -305,8 +306,8 @@ body {
     }
 
     .pad {
-      top: 150px;
-      left: 65%;
+      top: 266px;
+      left: 58%;
       width: 300px;
       height: 400px;
       background: url(./assets/images/new-model/tablet.png) no-repeat 0 0/contain;
